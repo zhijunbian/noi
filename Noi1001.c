@@ -11,7 +11,8 @@
 
 int main(void)
 {
-    int a;
+    char a;
+    
     scanf("%c",&a);
     a = 'z'+'a'-a;
     printf("%c",a);
