@@ -2,20 +2,20 @@
 //  Noi1001.c
 //  
 //
-//  Created by Jinsong Bian on 8/18/17.
+//  Created by Jinsong Bian on 8/19/17.
 //
 //
 
 #include <stdio.h>
-
+#include <math.h
 
 int main(void)
 {
-    char a;
+    float f,c;
+    scanf("%f",&f);
+    c = (f-32)*5/9.0;
+    printf("%0.4f",c);
     
-    scanf("%c",&a);
-    a = 'z'+'a'-a;
-    printf("%c",a);
     
     return 0;
 }
